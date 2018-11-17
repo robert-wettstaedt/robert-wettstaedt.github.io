@@ -1,0 +1,19 @@
+{
+  "name": "r-wettstaedt",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node -- app.js"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-2": "^6.3.13",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.0-beta.6",
+    "eslint": "^2.5.1"
+  }
+}

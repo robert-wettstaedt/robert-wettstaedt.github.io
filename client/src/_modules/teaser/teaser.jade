@@ -1,0 +1,16 @@
+article.teaser
+    .teaser__wrap(itemscope itemtype='http://schema.org/WebApplication')
+        meta(itemprop='browserRequirements' content='requires HTML5 support')
+
+        a.teaser__link(href=item.url target='_blank' data-ga='Teaser#Click##{item.name}' itemprop='url')
+
+            figure.teaser__image-wrap(itemprop='image')
+                img.teaser__image(src='images/#{item.img}')
+
+            .teaser__content
+                h3.teaser__header(itemprop='name')= item.name
+                p.teaser__subline(itemprop='description')= item.description
+
+        if item.github
+            .teaser__content
+                a.teaser__link--github(href=item.github target='_blank' data-ga='Teaser Github#Click##{item.name}' itemprop='downloadUrl') Github

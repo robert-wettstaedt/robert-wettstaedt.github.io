@@ -1,0 +1,14 @@
+@import './bootstrap/bootstrap';
+@import './variables';
+@import '../_modules/footer/footer';
+
+img {
+    width: auto;
+    max-width: 100%;
+}
+
+svg {
+    @extend img;
+    height: auto;
+    max-height: 100%;
+}

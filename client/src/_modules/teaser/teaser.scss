@@ -1,0 +1,80 @@
+.teaser {
+
+    position: relative;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+
+    &--transition {
+        transform: scale3d(0, 0, 0);
+        opacity: 0;
+        transition: all 700ms ease;
+        will-change: transform, opacity;
+
+        .teaser__content {
+            transform: scale3d(0, 0, 0) translate3d(0, 100vh, 0);
+            transform-origin: left;
+            transition: all 600ms ease;
+            will-change: transform;
+        }
+    }
+
+    &--active {
+        transform: scale3d(1, 1, 1);
+        opacity: 1;
+
+        .teaser__content {
+            transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
+        }
+    }
+
+    &__wrap {
+        position: absolute;
+        top: 50%;
+        transform: translate3d(0, -50%, 0);
+    }
+
+    &__content {
+        padding: 0 25px;
+    }
+
+    &__link {
+        &,
+        &:hover {
+            color: $text-color;
+        }
+    }
+
+    &__link--github {
+        &,
+        &:hover {
+            color: $text-color;
+            text-decoration: underline;
+        }
+    }
+
+    &__image-wrap {
+        overflow: hidden;
+    }
+
+    &__image {
+        transition: transform 300ms ease;
+        width: 100%;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+
+    @media screen and (min-width: $breakpoint-sm) {
+        &__wrap {
+            width: calc(100% - 50px);
+            margin: 0 25px;
+        }
+
+        &__content {
+            padding: 0;
+        }
+    }
+
+}
