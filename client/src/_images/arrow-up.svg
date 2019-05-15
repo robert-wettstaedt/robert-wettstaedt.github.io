@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512px" height="512px" viewBox="0 0 512 512" zoomAndPan="disable" preserveAspectRatio="none">
-    <circle r="255" cx="256" cy="256" fill="#db5156"/>
-
-    <line x1="128" y1="320" x2="272" y2="192" stroke="#fff" stroke-width="48"/>
-    <line x1="384" y1="320" x2="240" y2="192" stroke="#fff" stroke-width="48"/>
-</svg>
