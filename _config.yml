@@ -22,7 +22,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 linkedin_url: https://www.linkedin.com/in/robert-wettst%C3%A4dt-676346a3
 github_username: robert-wettstaedt
-email_address: robert.wett@gmail.com
+email_address: robert@wettstaedt.dev
 
 # Build settings
 markdown: kramdown
