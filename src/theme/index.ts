@@ -1,0 +1,11 @@
+export const background = "#261447"
+export const foreground = "#920075"
+export const ground = "#0d0221"
+export const horizon = "#ff4365"
+export const mountain = "#2e2157"
+export const sun1 = "#f9c80e"
+export const sun2 = "#ff6c11"
+
+export const md = "480px"
+export const lg = "900px"
+export const xl = "1200px"
