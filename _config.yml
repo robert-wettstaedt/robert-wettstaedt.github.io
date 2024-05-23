@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Robert Wettstädt
-subtitle: Freelancer | JavaScript Developer | Frontend | Fullstack
+subtitle: Freelancer | Software Developer | Frontend | Fullstack
 description: >- # this means to ignore newlines until "baseurl:"
-    Robert Wettstädt - Freelancer based in Berlin - JavaScript Developer - Frontend - Fullstack
+    Robert Wettstädt - Freelancer based in Germany - Software Developer - Frontend - Fullstack
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
